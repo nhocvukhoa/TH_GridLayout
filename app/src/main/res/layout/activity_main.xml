@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/idtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Product List (NGUYỄN VŨ ANH KHOA-1811505310118)"
+        android:textSize="20dp"
+        android:paddingLeft="30dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textStyle="bold"
+        android:background="#ff7f50"
+        android:layout_marginBottom="10dp"/>
+    <GridView
+        android:id="@+id/gridview"
+        android:numColumns="2"
+        android:verticalSpacing="1dp"
+        android:horizontalSpacing="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idtitle"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="850dp"
+        android:paddingTop="9dp"
+        android:gravity="center"
+        android:background="#bcd8ad"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="NGUYỄN VŨ ANH KHOA - 1811505310118"></TextView>
+
+</RelativeLayout>
